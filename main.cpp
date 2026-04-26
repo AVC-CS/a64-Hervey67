@@ -7,7 +7,7 @@ int main()
 	n1 = 10;
 	n2 = 20;
 	n3 = 30;
-	n4 = 40;
+	n4 = 40; 
 
 	cout << "Original Values are " << n1 << "\t" << n2 << "\t" << n3 << "\t" << n4 << endl;
 
