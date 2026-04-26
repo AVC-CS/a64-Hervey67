@@ -16,7 +16,10 @@ void swapValues(int &n1, int &n2)
 void swapValues(int &n1, int &n2, int &n3)
 {
     // TODO
-    swap(n2, n3);
+    int tmp = n1;
+    n1 = n2; 
+    n2 = n3; 
+    n3 = tmp;
 
 }
 
@@ -24,5 +27,5 @@ void swapValues(int &n1, int &n2, int &n3, int &n4)
 {
     // TODO
     swap(n1, n4);
-    swap(n3, n4);
+    swap(n2, n3);
 }
